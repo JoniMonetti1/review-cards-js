@@ -14,16 +14,16 @@
         <h1>Our reviews</h1>
         <div class="card">
             <div class="profile-photo">
-                <img src="pexels-david-garrison-1128051-2128807.jpg" alt="a photo of a man face" id="photo">
+                <img src="img/pexels-david-garrison-1128051-2128807.jpg" alt="a photo of a man face" id="photo">
             </div>
-            <h2 id="name">Susan Smith</h2>
+            <h2 id="name">Smith Lucas</h2>
             <h3 id="area"> Web developer</h3>
-            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nam autem eveniet. Odio fuga nulla, reprehenderit facilis veritatis error? Corrupti quae sunt suscipit culpa provident voluptates Lorem ipsum dolor sit amet consectetur at! Quos, est! Lorem ipsum dolor sit amet consectetur</p>
+            <p id="description">Como desarrollador web full-stack, puedo apreciar tanto el frontend como el backend de esta aplicación de tareas. La integración entre ambas partes es fluida, proporcionando una experiencia de usuario coherente y eficiente. Me impresiona especialmente la funcionalidad de arrastrar y soltar para reorganizar tareas. Para futuras iteraciones, sugeriría implementar una API más completa que permita integraciones con otras herramientas populares de productividad. En general, una aplicación muy bien ejecutada que demuestra un enfoque holístico del desarrollo web.</p>
             <div class="arrows">
-                <button id="left-btn"><i class="fa-solid fa-chevron-left"></i></button>
-                <button id="rigth-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                <button id="left-btn" onclick="previusReview()"><i class="fa-solid fa-chevron-left"></i></button>
+                <button id="rigth-btn" onclick="nextReview()"><i class="fa-solid fa-chevron-right"></i></button>
             </div>
-            <button id="random">surprise me</button>
+            <button id="random" onclick="randomReview()">surprise me</button>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/603c36d0a8.js" crossorigin="anonymous"></script>
